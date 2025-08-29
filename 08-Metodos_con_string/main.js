@@ -42,3 +42,7 @@ console.log(browserType.replace("moz", "van"));
 
 
 
+console.log("/////////");
+
+
+console.log(browserType.slice(0, 3));
