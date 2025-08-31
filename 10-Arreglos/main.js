@@ -143,11 +143,11 @@ console.log(removedItem);
 
 
 //  unshift() y shift()  eliminan el primer elemento 
-
+// agregar al princpio
 myArray2.unshift("Edinburgh");
 console.log(myArray2);
 
-
+// eliminar el primer elemento 
 let removedItem2 = myArray2.shift();
 console.log(myArray2);
 console.log(removedItem2);
