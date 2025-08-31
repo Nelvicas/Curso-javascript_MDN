@@ -101,3 +101,53 @@ console.log(dogNames.toString()); //Rocket,Flash,Bella,Slugger
 // agregar y eliminar elemetos de un arreglo
 
 
+let myArray2 = [
+  "Manchester",
+  "London",
+  "Liverpool",
+  "Birmingham",
+  "Leeds",
+  "Carlisle",
+];
+
+
+// añadir elemento al final 
+
+myArray2.push("Cardiff");
+console.log(myArray2);
+console.log(myArray2.length);
+
+myArray2.push("Bradford", "Brighton");
+console.log(myArray2);
+console.log(myArray2.length);
+
+
+
+// longitud del nuevo arreglo 
+
+let newLength = myArray2.push("Bristol");
+console.log(myArray2);
+console.log(newLength);
+
+
+
+// eliminar elemento al final 
+
+console.log(myArray2.pop());
+
+// guarda elemento eliminado en una variable
+
+let removedItem = myArray2.pop();
+console.log(myArray2);
+console.log(removedItem);
+
+
+//  unshift() y shift()  eliminan el primer elemento 
+
+myArray2.unshift("Edinburgh");
+console.log(myArray2);
+
+
+let removedItem2 = myArray2.shift();
+console.log(myArray2);
+console.log(removedItem2);
