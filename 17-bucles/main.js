@@ -86,7 +86,7 @@ for (let i = 0; i < cats6.length; i++) {
 
 
 
-//  ejeplo for ... of 
+//  ejemplo for ... of 
 
 const cats7 = ["Pete", "Biggles", "Jasmine"];
 
@@ -98,8 +98,3 @@ for (const cat7 of cats7) {
 
 console.log(myFavoriteCats);
 
-
-
-
-
-///
