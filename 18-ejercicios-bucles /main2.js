@@ -10,7 +10,7 @@ const input = document.querySelector("input");
 const btn = document.querySelector("button");
 
 btn.addEventListener("click", () => {
-  const searchName = input.value.toLowerCase();  // metodo que cnvierte a minusculas 
+  const searchName = input.value.toLowerCase();  // metodo que convierte a minusculas 
   input.value = "";
   input.focus();        //// sirve para que el cursor se coloque en automatico en el input 
   para.textContent = "";
