@@ -49,3 +49,23 @@ Es decir, se ejecuta como una propiedad de ese objeto.
 los metodos normalmente estan definidos dentro de un objeto 
 
 */
+
+
+
+
+
+// Funciones de invocacion
+
+
+function myFunction(){
+    return alert("Hello");
+}
+
+// llamada de funcion
+console.log(myFunction());
+
+
+
+
+////   Parametros de funcion 
+
