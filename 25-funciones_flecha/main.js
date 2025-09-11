@@ -25,3 +25,17 @@ const originals = [1, 2, 3];
 const doubled = originals.map(item => item * 2);
 
 console.log(doubled); // [2, 4, 6]
+
+
+
+
+
+// Arrow function
+const suma = (a, b) => a + b;
+
+console.log(suma(3, 5)); // 8
+
+
+
+const saludar = () => console.log("Hola!");
+saludar(); // Hola!
