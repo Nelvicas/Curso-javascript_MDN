@@ -56,16 +56,50 @@ los metodos normalmente estan definidos dentro de un objeto
 
 // Funciones de invocacion
 
+/*
 
 function myFunction(){
     return alert("Hello");
 }
 
+*/
 // llamada de funcion
-console.log(myFunction());
+// console.log(myFunction());
 
 
 
 
 ////   Parametros de funcion 
 
+  // ejemplo 
+
+const myText2 = "I am a string";
+const newString2 = myText2.replace("string", "sausage");  // replace  es una funcion que debe de llevar dos paramatros 
+console.log(newString);
+
+
+
+
+// parametros opcionales 
+
+const myArray2 = ["I", "love", "chocolate", "frogs"];
+const madeAString2 = myArray2.join(" ");
+console.log(madeAString2);
+// returns 'I love chocolate frogs'
+
+const madeAnotherString = myArray2.join();
+console.log(madeAnotherString);
+// returns 'I,love,chocolate,frogs'    // en este seccion se coloca una , porque no ahi una delimitavcion como los (" ")
+
+
+
+
+//Parametros determinados
+
+
+function hello(name = "Chris") {
+  console.log(`Hello ${name}!`);
+}
+
+console.log(hello("Ari")); // Hello Ari!
+console.log(hello()); // Hello Chris!
