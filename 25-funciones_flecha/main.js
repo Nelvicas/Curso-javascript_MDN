@@ -39,3 +39,7 @@ console.log(suma(3, 5)); // 8
 
 const saludar = () => console.log("Hola!");
 saludar(); // Hola!
+
+
+
+
