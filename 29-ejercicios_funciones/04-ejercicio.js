@@ -26,3 +26,8 @@ const para = document.querySelector("p");
 
 const shortNames = names.filter((name) => name.length < 5);
 para.textContent = shortNames;
+
+
+
+
+console.log(" ////////// ")
