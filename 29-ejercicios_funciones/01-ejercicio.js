@@ -7,6 +7,20 @@ Llame a la función una vez.chooseName()
 */
 
 
+
+/*
+
+¿Qué es textContent?
+
+textContent no es un objeto, sino una propiedad de un nodo del DOM (por ejemplo, un elemento HTML como <p>, <div>, etc.).
+
+Su propósito es leer o modificar el contenido de texto de ese elemento.
+
+
+
+*/
+
+
 const names = [
   "Chris",
   "Li Kang",
