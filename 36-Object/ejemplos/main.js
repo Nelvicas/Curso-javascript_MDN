@@ -1,0 +1,26 @@
+//  objetos sintaxis 
+
+const person = {};
+
+console.log(person);
+
+
+const person2 = {
+  name: ["Bob", "Smith"],
+  age: 32,
+  bio: function () {
+    console.log(`${this.name[0]} ${this.name[1]} is ${this.age} years old.`);
+  },
+  introduceSelf: function () {
+    console.log(`Hi! I'm ${this.name[0]}.`);
+  },
+};
+
+console.log(person2);
+
+console.log(person.name);
+console.log(person.name[0]);
+console.log(person.age);
+console.log(person.bio());
+// "Bob Smith is 32 years old."
+console.log(person.introduceSelf());
