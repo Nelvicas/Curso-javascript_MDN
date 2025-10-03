@@ -59,3 +59,101 @@ console.log(person3);
 console.log(person3.introduceSelf());
 
 
+
+
+/// Notacion de puntos 
+
+
+console.log(person2.age);
+console.log(person2.bio());
+
+
+person2.age;
+person2.name.first;
+
+
+
+// Objetos con propiedades de objetos
+
+const person4 = {
+  name: {
+    first: "Bob",
+    last: "Smith",
+  },
+  age : 17,
+  // …
+};
+
+console.log(person4.name.first);
+//console.log(name.last);
+
+
+
+// Notacion entre corchetes 
+
+
+console.log(person4["age"]);
+console.log(person4["name"]["first"]);
+console.log(person4["name"]["last"]);
+
+
+
+///  Metodo this 
+
+const person1 = {
+  name: "Chris",
+  introduceSelf() {
+    console.log(`Hi! I'm ${this.name}.`);
+  },
+};
+
+console.log(person1.introduceSelf());
+
+
+const perso2 = {
+  name: "Deepti",
+  introduceSelf() {
+    console.log(`Hi! I'm ${this.name}.`);
+  },
+};
+
+console.log(perso2.introduceSelf());
+
+
+
+///   Instroduccion a contadorees  
+
+
+/*
+function createPerson(name) {
+  const obj = {};
+  obj.name = name;
+  obj.introduceSelf = function () {
+    console.log(`Hi! I'm ${this.name}.`);
+  };
+  return obj;
+}
+
+*/
+
+function Person(name) {
+  this.name = name;
+  this.introduceSelf = function () {
+    console.log(`Hi! I'm ${this.name}.`);
+  };
+}
+
+   //  para llamar al constructor 
+
+
+const salva = new Person("Salva");
+salva.introduceSelf();
+// "Hi! I'm Salva."
+
+console.log("////////////////")
+console.log(salva)
+
+
+const frankie = new Person("Frankie");
+frankie.introduceSelf();
+// "Hi! I'm Frankie."
