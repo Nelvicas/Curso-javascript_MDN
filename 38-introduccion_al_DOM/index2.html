@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple DOM example</title>
+  </head>
+  <body>
+    <section>
+      <img
+        src="dinosaur.png"
+        alt="A red Tyrannosaurus Rex: A two legged dinosaur
+        standing upright like a human, with small arms, and a
+        large head with lots of sharp teeth." />
+      <p>
+        Here we will add a link to the
+        <a href="https://www.mozilla.org/">Mozilla homepage</a>
+      </p>
+    </section>
+  </body>
+</html>
+
+
+
+<!-- 
+
+Nodo raíz: el nodo superior del árbol, que en el caso de HTML es siempre el nodo HTML (otros vocabularios de marcado como SVG y XML personalizado tendrán diferentes elementos raíz).
+Nodo secundario: Un nodo directamente dentro de otro nodo. Por ejemplo IMG, es un hijo de SECTION en el ejemplo anterior.
+Nodo descendiente: Un nodo en cualquier lugar dentro de otro nodo. Por ejemplo IMG, es un hijo de SECTION en el ejemplo anterior, y también es un descendiente. IMG no es un hijo de BODY, ya que está dos niveles por debajo de él en el árbol, pero es un descendiente de BODY.
+Nodo principal: Un nodo que tiene otro nodo dentro de él. Por ejemplo, BODY es el nodo principal de SECTION en el ejemplo anterior.
+Nodos hermanos: Nodos que se encuentran en el mismo nivel bajo el mismo nodo principal en el árbol DOM. Por ejemplo,IMG y P son hermanos en el ejemplo anterior. 
+
+-->
