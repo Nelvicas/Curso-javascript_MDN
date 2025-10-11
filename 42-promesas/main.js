@@ -1,4 +1,4 @@
-//  base de la programacion asincrona 
+//  base de la programacion asincrona las promesas
 
 const fetchPromise = fetch(
   "https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json",
