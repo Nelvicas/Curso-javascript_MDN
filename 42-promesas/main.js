@@ -2,7 +2,6 @@
 
 
 
-
 /*
 
 La programación asincrónica es una técnica que permite al programa iniciar una tarea potencialmente de larga duración y seguir respondiendo a otros eventos mientras se ejecuta esa tarea, en lugar de tener que esperar hasta que esa tarea haya finalizado. Una vez finalizada esa tarea, se presenta el resultado del programa.
