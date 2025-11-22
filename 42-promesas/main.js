@@ -122,3 +122,11 @@ Promise.all([fetchPromise5, fetchPromise6, fetchPromise7])
   .catch((error) => {
     console.error(`Failed to fetch: ${error}`);
   });
+
+
+
+  ////    async y await
+
+  async function myFunction() {
+  // This is an async function
+}
