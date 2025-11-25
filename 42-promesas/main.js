@@ -100,6 +100,7 @@ rechazado: La operación fracasó. Es entonces cuando llaman al encargado de la 
 
 
 ///   combinar  multiples promesas 
+//   promise.all() se cumplan todas 
 
 
 
@@ -124,6 +125,29 @@ Promise.all([fetchPromise5, fetchPromise6, fetchPromise7])
   });
 
 
+  // promise.any()  se cumplan algunas no importa cual 
+
+
+  const fetchPromise8 = fetch(
+  "https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json",
+);
+const fetchPromise9 = fetch(
+  "https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/not-found",
+);
+const fetchPromise10 = fetch(
+  "https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json",
+);
+
+Promise.any([fetchPromise8, fetchPromise9, fetchPromise10])
+  .then((response) => {
+    console.log(`${response.url}: ${response.status}`);
+  })
+  .catch((error) => {
+    console.error(`Failed to fetch: ${error}`);
+  });
+
+
+  
 
   ////    async y await
 
