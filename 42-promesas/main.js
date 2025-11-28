@@ -154,3 +154,7 @@ Promise.any([fetchPromise8, fetchPromise9, fetchPromise10])
   async function myFunction() {
   // This is an async function
 }
+
+
+
+//  ejemplo se async 
